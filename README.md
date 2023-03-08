@@ -8,8 +8,8 @@ DD_APP_KEY set in your environment.
 Python3.9+ is required for the global or virtual environment methods.
 
 - Docker
--- docker build . --tag service_checker
--- docker run -e DD_API_KEY=$DD_API_KEY -e DD_APP_KEY=$DD_APP_KEY service_checker
+  - docker build . --tag service_checker
+  - docker run -e DD_API_KEY=$DD_API_KEY -e DD_APP_KEY=$DD_APP_KEY service_checker
 
 - Python (virtual environment)
   - python3 -m venv venv
