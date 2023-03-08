@@ -12,11 +12,11 @@ Python3.9+ is required for the global or virtual environment methods.
 -- docker run -e DD_API_KEY=$DD_API_KEY -e DD_APP_KEY=$DD_APP_KEY service_checker
 
 - Python (virtual environment)
--- python3 -m venv venv
--- source venv/bin/activate
--- pip install -r requirements.txt
--- python3 service_checker.py
+  - python3 -m venv venv
+  - source venv/bin/activate
+  - pip install -r requirements.txt
+  - python3 service_checker.py
 
 - Python (global install [not recommended])
--- pip install -r requirements.txt
--- python3 service_checker.py
+  - pip install -r requirements.txt
+  - python3 service_checker.py
